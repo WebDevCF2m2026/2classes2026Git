@@ -4,11 +4,12 @@ body{
 }
 
 header{
-    background-color: #d4a373;
+    background: #CCD5AE;
+    background: radial-gradient(circle, rgba(204, 213, 174, 1) 0%, rgba(233, 237, 201, 1) 35%, rgba(247, 188, 129, 1) 100%);
     padding: 1px;
-    margin: 0;
-    color: #fefae0;
+    color: #af8154;
     font-size: x-large;
+
 }
 
 h1{
@@ -22,6 +23,7 @@ section {
      border-radius: 9px;
      width: 70vw;
      margin: 90px auto;
+     box-shadow: 15px 10px #9da5813d;
 }
 img{
     width: 55%;
@@ -42,9 +44,10 @@ h2  {
     padding-left: 10px;
 }
 footer{
-    color: #fefae0;
+    color: #8f6842;
     text-align: center;
-    background-color: #d4a373;
+    background: #CCD5AE;
+    background: radial-gradient(circle, rgba(204, 213, 174, 1) 0%, rgba(233, 237, 201, 1) 35%, rgba(247, 188, 129, 1) 100%);
     padding: 1px;
     position: fixed;
     bottom: 0;
