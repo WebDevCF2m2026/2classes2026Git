@@ -3,31 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="John David">
+    <link rel="stylesheet" href="john_david.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Page web de John David</title>
 </head>
 <body>
-    <header>
-        <h1>Bienvenue sur la page de John David</h1>
-        <img src="img/johndavid.jpg" alt="Photo de John David">
+    <header clanss="landing-header">
+        <div class="intro-text">
+            <h1>Bienvenue sur la page de John David</h1>
+            <h2>Développeur Web full-stack</h2>
+        </div>
+        <div class="photo-container">
+            <img src="img/johndavid.jpg" alt="Photo de John David">
+        </div>
     </header>
-    <main>
-        <section>
+    <main class="content">
+        <section class="a-propos">
             <h2>À propos de moi</h2>
             <p>Bonjour! Je m'appelle John David et je suis passionné par le développement web. J'aime créer des sites web interactifs et fonctionnels.</p>
         </section>
-        <section>
+
+        <section class="competences">
             <h2>Mes compétences</h2>
             <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <li>Frameworks front-end (React, Vue)</li>
+                <li>HTML5   <i class="fa-brands fa-html5"></i></li>
+                <li>CSS3   <i class="fa-brands fa-css3-alt"></i></li>
+                <li>JavaScript   <i class="fa-brands fa-js"></i></li>
+                <li>Frameworks front-end (React, Vue) <i class="fa-brands fa-react"></i></li>
             </ul>
         </section>
-        <section>
+
+        <section class="parcours">
+            <h2>Mon parcours</h2>
+            <p>J'ai commencé ma carrière en tant que développeur junior chez Tech Solutions, où j'ai travaillé sur divers projets web. Actuellement, je suis stagiaire webdev chez CF2m, où j'approfondis mes compétences en développement full-stack.</p>
+        </section>
+
+        <section class="projets">
+            <h2>Mes projets</h2>
+            <ul>
+                <li><strong>Portfolio Personnel :</strong> Un site web présentant mes travaux et compétences.</li>
+                <li><strong>Application de Gestion de Tâches :</strong> Une application web pour organiser et suivre les tâches quotidiennes.</li>
+                <li><strong>Blog Tech :</strong> Un blog où je partage des articles sur les dernières tendances en développement web.</li>
+                <li><strong>AirBnb Clone :</strong> Une réplique fonctionnelle du site Airbnb pour la réservation de logements.</li>
+            </ul>
+        </section>
+
+        <section class="contact">
             <h2>Contactez-moi</h2>
             <p>Vous pouvez me contacter à l'adresse email : <strong>tchomguijohn@gmail.com</strong></p>
+            <p class="github">mon github : <a href="https://github.com/John-Dav9" target="_blank">github :   <i class="fa-brands fa-github"></i></a></p>
+            <p class="linkedin"> mon LinkedIn : <a href="https://www.linkedin.com/in/john-david" target="_blank">linkedin :   <i class="fa-brands fa-linkedin"></i></a></p>
         </section>
+
+        <footer>
+            <p>CF2m - 2026 designed by John David, stagiaire webdev </p>
+        </footer>
     </main>
 </body>
 </html>
