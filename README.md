@@ -59,8 +59,14 @@ Sur une **nouvelle branche** partant de `main` (mise à jour), faites une propos
 - Chaque élève doit travailler sur sa propre branche.
 - Les contributions doivent être respectueuses et appropriées.
 - Toute contribution inappropriée ne sera pas acceptée.
-- N'hésitez pas à demander de l'aide si vous rencontrez des difficultés.
+- N'hésitez pas à demander de l'aide si vous rencontrez des difficultés (à moi, pour `git/github` uniquement, ou à vos camarades de classe).
+- Assurez-vous de tester votre page HTML et CSS avant de soumettre votre Pull Request, pour vérifier que tout fonctionne correctement (règles de nommages, minuscules/majuscules, liens relatifs, pas de caractères spéciaux, etc.).
+- sur github, si vous voyez un message de conflit, ne paniquez pas ! Lisez-le attentivement et suivez les instructions pour résoudre le conflit.
 
 ## Et si j'attends trop longtemps pour la validation de ma PR ?
 
 Alors travaillez sur le projet personnel `passion` en attendant que je valide votre PR ici. (4 pages minimum avec HTML et CSS obligatoires faits 'main'). Vous devez l'envoyer sur un dépôt GitHub séparé qui vous appartient et m'envoyer le lien Teams sur gitweb@cf2m.be
+
+**N'oubliez pas que le TI de la semaine prochaine devra être sauvegardé via git en local, puis envoyé sur github (dépôt personnel publique) lorsque vous aurez accès à internet.**
+
+#### Donc, commencez à vous familiariser avec git et github dès maintenant !
