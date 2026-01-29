@@ -1,4 +1,6 @@
 body {
+    background: url('img/back.jpg') no-repeat fixed;
+    background-size: cover;
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
     color: #333333;
@@ -25,7 +27,19 @@ header .photo-container img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
-    border: 3px solid #333333;
+    border: 3px solid #2ef1a9;
+    box-shadow: #1e90ff 2px 2px 4px;
+}
+
+.intro-text h1 {
+    text-shadow: #1e90ff 2px 2px 4px;
+    animation: infinite 6s ease-in-out;
+    font-size: 3em;
+}
+
+.intro-text h2 {
+    font-size: 1.5em;
+    color: #8cd8ed;
 }
 
 main {
@@ -38,18 +52,20 @@ section {
     padding: 15px;
     padding-bottom: 10px;
     padding-top: 10px;
-    background-color: #c8eaed;
+    background-color: #c3ccce;
     margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 6px rgba(29, 103, 230, 0.87);
+    transition: all 0.3s ease;
+    opacity: 0.90;
 }
 section:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(11, 226, 147, 0.997);
     border-color: #1e90ff;
     background-color: #e0edf9;
 }
 section h2 {
     text-align: center;
-    color: #2e8b57;
+    color: #3463f1;
 
 }
 section ul {
@@ -57,7 +73,12 @@ section ul {
     padding-left: 20px;
 }
 section ul li {
-    margin-bottom: 8px;
+    margin-bottom: 8px
+}
+
+.skills-lists{
+   display: flex;
+    justify-content: space-between;
 }
 .contact p {
     margin: 5px 0;
@@ -76,11 +97,15 @@ strong {
     color: #1e90ff;
 }
 
+.competences li{
+    font-weight: bold;
+}
+
 footer {
-    background-color: #777777;
+    background-color: linear-gradient(to right, #c9d5e1, #616f78 , #153658);
     text-align: center;
     font-size: 0.9em;
     color: #4fa6e8;
-    margin: 0 auto;
+    margin: 0 auto; 
     padding: 10px;
 }
