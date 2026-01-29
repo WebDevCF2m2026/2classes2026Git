@@ -64,3 +64,11 @@ footer {
     padding-top: 20px;
     border-top: 1px solid #ddd;
 }
+
+.raphlink{
+    color: #00FF1E;
+    background-color: #080808;
+    border: 1px solid #00FF1E;
+    border-radius: 15px;
+    padding: 5px;
+}
