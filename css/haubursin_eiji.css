@@ -9,9 +9,23 @@ header{
     padding: 1px;
     color: #af8154;
     font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 }
 
+header a{
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #7d885a;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
 h1{
     padding-left: 10px;
 }
