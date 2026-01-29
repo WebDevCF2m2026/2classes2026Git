@@ -102,10 +102,10 @@ strong {
 }
 
 footer {
-    background-color: linear-gradient(to right, #c9d5e1, #616f78 , #153658);
+    background-color: #777777;
     text-align: center;
     font-size: 0.9em;
-    color: #4fa6e8;
-    margin: 0 auto; 
+    color: hsl(223, 17%, 92%);
+    margin: 0 auto;
     padding: 10px;
 }
