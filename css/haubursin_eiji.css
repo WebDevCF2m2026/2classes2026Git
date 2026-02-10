@@ -1,0 +1,70 @@
+body{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    background-color: #f7f4ee;
+}
+
+header{
+    background: #CCD5AE;
+    background: radial-gradient(circle, rgba(204, 213, 174, 1) 0%, rgba(233, 237, 201, 1) 35%, rgba(247, 188, 129, 1) 100%);
+    padding: 1px;
+    color: #af8154;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header a{
+    text-align: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #7d885a;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    padding-left: 10px;
+}
+
+section {
+     display: flex;
+     gap: 10px;
+     border: 2px solid #9da581;
+     border-radius: 9px;
+     width: 70vw;
+     margin: 90px auto;
+     box-shadow: 15px 10px #9da5813d;
+}
+img{
+    width: 55%;
+    margin: 100px 100px;
+    border-radius: 30px;
+}
+
+.texte{
+    color: #af8154;
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 30px 80px; 
+}
+
+h2  {
+    font-size: xxx-large;
+    padding-left: 10px;
+}
+footer{
+    color: #8f6842;
+    text-align: center;
+    background: #CCD5AE;
+    background: radial-gradient(circle, rgba(204, 213, 174, 1) 0%, rgba(233, 237, 201, 1) 35%, rgba(247, 188, 129, 1) 100%);
+    padding: 1px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
